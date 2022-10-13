@@ -20,8 +20,8 @@ const Hero = () => {
       <h2 className="text-center">
         Manage and contact your sevice provider by simply tapping your phone!
       </h2>
-      <div className="w-full sm:h-[400px] flex items-center justify-center pt-10">
-        <img src={image1} class="object-cover h-175 w-100"/>
+      <div className="w-full sm:h-[700px] flex items-center justify-center pt-10">
+        <img src={image1} class="object-contain h-full w-full" alt="hero"/>
       </div>
     </div>
   )
